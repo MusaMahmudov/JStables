@@ -1,0 +1,51 @@
+body {
+  background: rgb(164, 186, 190);
+}
+
+#container {
+  margin: 0px auto;
+  width: 50%;
+  height: 288px;
+  transform: translateY(50%);
+  background: white;
+}
+
+.menu {
+  background: rgb(164, 186, 190);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  padding: 10px 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+li:hover {
+  background: white;
+}
+
+.default {
+  background: rgb(164, 186, 190) !important;
+}
+
+.white {
+  background: white !important;
+}
+
+#content {
+  padding: 5px 20px;
+}
+#content p {
+  font-size: 20px;
+}
+
+.menu-color {
+  background: rgb(164, 186, 190);
+}/*# sourceMappingURL=style.css.map */
