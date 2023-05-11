@@ -22,10 +22,24 @@ li {
   padding: 10px 15px;
   transition: 0.2s;
   cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+li::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  height: 0%;
+  transition: 0.3s;
 }
 
-li:hover {
+li:hover::before {
   background: white;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 .default {
   background: rgb(164, 186, 190) !important;
